@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Open Access Simulator </title>
+    <link rel="stylesheet" href="redirect.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap">
+    <link href="data:image/x-icon;base64,AAABAAEAEBAQAAEABAAoAQAAFgAAACgAAAAQAAAAIAAAAAEABAAAAAAAgAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA////AKenpwDm5uYA25pTAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAzMAAAAAAAAiIzAAADMzMzISMAACIiIiIhIzACERERERESMyERERQREREjIRERERERESMhEREUERERIyERERRBEREjIREUERQRESMhERQRFBERIyEREURBEREgAhEREREREgAAIiIiIiIgAAAAAAAAAAAAAAAAAAAAAAD/xwAA/4MAAOADAADAAQAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAACAAwAAwAcAAP//AAD//wAA" rel="icon" type="image/x-icon">
+    
+</head>
+<body>
+<div>
+    <h1> Open Access Simulator</h1>
+    <p id = "intro"> Let's pretend that you are all researchers in various fields and working in different countries. You have heard about open access publishing for the first 
+        time, and want to participate since <br>you see the value in it. Let's see if it'll be possible.
+    </p>
+</div>
+<div>
+    <h2> First let's pick a discipline for you! You all will sit according to discipline.</h2>
+
+    <p id="discbut">You do research in:</p>
+
+    <button id="disButton">Generate</button>
+
+    <script src="discipline.js"></script>
+</div>
+<div>
+    <h2> Next let's pick a country for you!</h2>
+
+    <p id="ctbut">You are now a researcher in:</p>
+
+    <button id="generateButton">Generate</button>
+
+   <script src="country.js"></script>
+</div>
+
+<div>
+<p id = "randomizer intro"> Now that you have been divided by discipline and country, you now will determine whether or not you can publish depending on where you are from. 
+    <strong> Use the buttons labeled according to where you are from</strong>. <br> Over the course of the time, try to see if you can publish 10 times or more.
+</p>
+</div>
+<div>
+    <h2> US and UK researchers.</h2>
+
+    <p id="usukbut">You:</p>
+
+    <button id="westButton">Generate</button>
+    
+    <div id="usukPopup" class="popup">
+        <span class="popuptext" id="usukPopupText"></span>
+    </div>
+
+    <script src="usuk.js"></script>
+
+</div>
+<div>
+    <h2> Nigerian and Cameroonian researchers.</h2>
+
+    <p id="africabut">You:</p>
+
+    <button id="africaButton">Generate</button>
+
+    <script src="africa.js"></script>
+
+</div>
+</body>
+</html>

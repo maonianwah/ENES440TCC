@@ -1,0 +1,31 @@
+/* styles.css */
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    color: #003366; /* Dark blue */
+}
+
+p {
+    color: #0066cc; /* Blue */
+}
+
+button {
+    background-color: #0066cc; /* Blue */
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #004080; /* Darker blue on hover */
+}
+
+
